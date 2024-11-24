@@ -31,6 +31,11 @@ p span{
 	font-weight: 600;
 }
 
+.p-100{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 /***** Header *****/
 
 header{
@@ -93,12 +98,58 @@ header{
 
 /***** Welcome *****/
 
-.welcome{
-	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
 .welcome p{
 	font-size: 25px;
+}
+
+/***** Les ingrédients *****/
+
+#ingredients .col-lg-6{
+	padding: 100px 30px;
+}
+
+#ingredients .d-flex{
+	justify-content: center;
+	gap: 30px;
+}
+
+#ingredients p{
+	margin-bottom: 0px;
+}
+
+.bloc-1{
+	background-color: #ffd275;
+}
+
+.bloc-2, .bloc-6{
+	background-color: #f8f4eb;
+}
+
+.bloc-3{
+	background-color: #fdcdc1;
+}
+
+.bloc-4{
+	background-color: #fff;
+}
+
+.bloc-5{
+	background-color: #fffce9;
+}
+
+/***** Livre de recettes *****/
+
+.projets .btn.home{
+	background: transparent;
+	border: none;
+	padding: 0px;
+}
+
+.projets .btn.home:hover{
+	background: none;
+	border: none;
+}
+
+.projets .btn.home img{
+	border-radius: 20px;
 }
