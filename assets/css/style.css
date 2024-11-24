@@ -139,6 +139,10 @@ header{
 
 /***** Livre de recettes *****/
 
+#livre h2{
+	margin-bottom: 100px;
+}
+
 .projets .btn.home{
 	background: transparent;
 	border: none;
