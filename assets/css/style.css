@@ -1,6 +1,7 @@
 /***** Variables *****/
 :root{
 	--yellow: #efbb00;
+	--gold: #ddad00;
 	--black: #000;
 }
 
@@ -27,6 +28,10 @@ h2{
 	margin-bottom: 25px;
 }
 
+a, a:hover{
+	text-decoration: none;
+}
+
 p span{
 	font-weight: 600;
 }
@@ -36,12 +41,32 @@ p span{
 	padding-bottom: 100px;
 }
 
+.btn-gold{
+	background-color: var(--gold);
+	color: #fff;
+	border-radius: 20px;
+	padding: 8px 15px;
+	border: 2px solid var(--gold);
+}
+
+.btn-gold:hover{
+	background: transparent;
+	color: var(--gold);
+}
+
 /***** Header *****/
 
 header{
 	position: absolute;
     width: 100%;
 	border-top: 8px solid var(--yellow);
+	padding: 10px;
+}
+
+header .contact{
+	position: absolute;
+    right: 0;
+    top: 15px;
 }
 
 /* Navigation */
