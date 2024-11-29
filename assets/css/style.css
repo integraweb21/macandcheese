@@ -42,6 +42,7 @@ p span{
 }
 
 .btn-gold{
+	display: inline-block;
 	background-color: var(--gold);
 	color: #fff;
 	border-radius: 20px;
@@ -158,7 +159,7 @@ header .contact{
 	background-color: #fff;
 }
 
-.bloc-5{
+.bloc-5, .menus{
 	background-color: #fffce9;
 }
 
@@ -181,4 +182,16 @@ header .contact{
 
 .projets .btn.home img{
 	border-radius: 20px;
+}
+
+/***** Menus *****/
+
+.menus h3{
+	margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.menus .services{
+	margin-top: 40px;
+    margin-bottom: 40px;
 }
