@@ -275,6 +275,68 @@
             </div>
         </div>
     </section>
+    <section class="contact p-100">
+        <h2 class="text-center">Contactez-nous !</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <img src="assets/css/img/picto-calendar.png" alt="Pictogramme d'un calendrier">
+                    <p><span>Contactez-nous</span> en expliquant simplement votre projet</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/css/img/picto-calendar.png" alt="Pictogramme d'un calendrier">
+                    <p>On fixe un <span>rendez-vous</span> pour échanger plus en détails sur vos besoins digitaux</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/css/img/picto-calendar.png" alt="Pictogramme d'un calendrier">
+                    <p>On vous envoie rapidement <span>une proposition</span> dans votre budget</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="assets/css/img/picto-calendar.png" alt="Pictogramme d'un calendrier">
+                    <p><span>C’est parti</span> pour cuisiner un site à votre image !</p>
+                </div>
+            </div>
+            <form action="/ma-page-de-traitement" method="post">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="user_name" />
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="mail">E-mail&nbsp;:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="name">Votre besoin</label>
+                        <select name="choice">
+                            <option selected></option>
+                            <option value="logo">Logo</option>
+                            <option value="vitrine">Site vitrine</option>
+                            <option value="commerce">Site e-commerce</option>
+                            <option value="application">Application web</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="mail">Votre numéro (facultatif)</label>
+                        <input type="tel" id="tel" name="tel" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="msg">Message</label>
+                        <textarea col="40" rows="6" id="msg" name="user_message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
     <footer>
     </footer>
     <!-- Script -->

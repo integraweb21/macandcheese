@@ -3,6 +3,7 @@
 	--yellow: #efbb00;
 	--gold: #ddad00;
 	--black: #000;
+	--white: #fff;
 }
 
 /****** Base *****/
@@ -67,7 +68,6 @@ header{
 header .contact{
 	position: absolute;
     right: 0;
-    top: 15px;
 }
 
 /* Navigation */
@@ -147,7 +147,7 @@ header .contact{
 	background-color: #ffd275;
 }
 
-.bloc-2, .bloc-6{
+.bloc-2, .bloc-6, .contact{
 	background-color: #f8f4eb;
 }
 
@@ -210,4 +210,46 @@ header .contact{
 	font-family: "Modak", system-ui;
     font-size: 55px;
 	margin-right: 30px;
+}
+
+/***** Contact *****/
+
+.contact h2{
+	margin-bottom: 60px;
+}
+
+.contact img{
+	margin-bottom: 20px;
+}
+
+.contact form{
+	margin-top: 60px;
+}
+
+.contact form div{
+	margin-bottom: 15px;
+}
+
+label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+input, textarea, select{
+	width: 100%;
+	border: none;
+	border-radius: 30px;
+	padding: 15px;
+}
+
+select{
+	height: 54px;
+}
+
+input[type="submit"]{
+	width: auto;
+	background-color: var(--black);
+	color: var(--white);
+	padding-left: 30px;
+    padding-right: 30px;
 }
