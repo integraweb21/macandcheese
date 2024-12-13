@@ -140,6 +140,7 @@ header .contact{
 }
 
 #ingredients p{
+	font-size: 18px;
 	margin-bottom: 0px;
 }
 
@@ -190,6 +191,14 @@ header .contact{
 	gap: 50px;
 }
 
+.presentation p{
+	font-size: 20px;
+}
+
+.presentation span{
+	font-size: 25px;
+}
+
 /***** Menus *****/
 
 .menus h3{
@@ -202,10 +211,26 @@ header .contact{
     margin-bottom: 40px;
 }
 
+.menus p{
+	font-size: 20px;
+}
+
+.menus .services p{
+	font-size: 18px;
+}
+
 /***** Services *****/
 
 .services h2{
 	margin-bottom: 60px;
+}
+
+.services h3{
+	font-size: 25px;
+}
+
+.services p{
+	font-size: 18px;
 }
 
 .services .container{
@@ -228,6 +253,10 @@ header .contact{
 
 .contact h2{
 	margin-bottom: 60px;
+}
+
+.contact p{
+	font-size: 18px;
 }
 
 .contact img{
