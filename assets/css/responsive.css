@@ -1,5 +1,7 @@
 @media screen and (max-width: 768px) {
 
+    /* Banner */
+
     .logo{
         width: 250px;
     }
@@ -11,6 +13,12 @@
     .banner h1:before{
         bottom: 0;
         margin: 0px auto 20px;
+    }
+
+    /* Projets */
+
+    .projets .btn.home{
+        padding: 50px;
     }
 
 }
