@@ -1,4 +1,16 @@
 @media screen and (max-width: 768px) {
 
+    .logo{
+        width: 250px;
+    }
+    
+    .picto-cheese, .picto-mac{
+        width: 100px;
+    }
+
+    .banner h1:before{
+        bottom: 0;
+        margin: 0px auto 20px;
+    }
 
 }

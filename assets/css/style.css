@@ -184,6 +184,12 @@ header .contact{
 	border-radius: 20px;
 }
 
+/***** Présentation *****/
+
+.presentation .d-lg-flex{
+	gap: 50px;
+}
+
 /***** Menus *****/
 
 .menus h3{
@@ -200,6 +206,12 @@ header .contact{
 
 .services h2{
 	margin-bottom: 60px;
+}
+
+.services .container{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .services .d-flex{
@@ -223,7 +235,8 @@ header .contact{
 }
 
 .contact form{
-	margin-top: 60px;
+	max-width: 800px;
+    margin: 60px auto 0;
 }
 
 .contact form div{
@@ -249,7 +262,13 @@ select{
 input[type="submit"]{
 	width: auto;
 	background-color: var(--black);
+	border: 2px solid var(--black);
 	color: var(--white);
 	padding-left: 30px;
     padding-right: 30px;
+}
+
+input[type="submit"]:hover{
+	background-color: transparent;
+	color: var(--black);
 }
