@@ -56,6 +56,20 @@ p span{
 	color: var(--gold);
 }
 
+.modal .btn.btn-secondary, input[type="submit"]{
+	width: auto;
+	background-color: var(--black);
+	border: 2px solid var(--black);
+	color: var(--white);
+	padding-left: 30px;
+    padding-right: 30px;
+}
+
+.modal .btn.btn-secondary:hover, input[type="submit"]:hover{
+	background-color: transparent;
+	color: var(--black);
+}
+
 /***** Header *****/
 
 header{
@@ -123,6 +137,14 @@ header .contact{
 }
 
 /***** Welcome *****/
+
+.welcome h2:before{
+	content: "";
+	display: block;
+	background-image: url('img/picto-macaroni1.png');
+	width: 37px;
+	height: 49px;
+}
 
 .welcome p{
 	font-size: 25px;
@@ -288,16 +310,17 @@ select{
 	height: 54px;
 }
 
-input[type="submit"]{
-	width: auto;
-	background-color: var(--black);
-	border: 2px solid var(--black);
-	color: var(--white);
-	padding-left: 30px;
-    padding-right: 30px;
+/****** Modal *****/
+
+.modal h3{
+	margin: 20px 0;
+	font-size: 28px !important;
 }
 
-input[type="submit"]:hover{
-	background-color: transparent;
-	color: var(--black);
+.modal-header, .modal-footer{
+	border: none;
+}
+
+.modal-footer{
+	display: block;
 }
